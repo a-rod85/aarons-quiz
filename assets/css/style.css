@@ -1,3 +1,17 @@
 body {
-    background: indigo;
+    background: rgb(43, 0, 130);
+    margin: 0;
+    padding: 0;
+    color: antiquewhite;
+    font-family:'Roboto Slab', serif; ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.genre-column{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
