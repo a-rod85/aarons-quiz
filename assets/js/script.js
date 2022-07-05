@@ -12,13 +12,18 @@ function addGenre() {
 
     levels.forEach(level => {
 
-        document.createElement('div')
+       const card = document.createElement('div')
        card.classList.add('card')
+       column.append (card)
 
 
-        fetch(`https://opentdb.com/api.php?amount=1&category=21&difficulty=${level}&type=boolean`)
+    fetch(`https://opentdb.com/api.php?amount=1&category=21&difficulty=${level}&type=boolean`)
         .then (response => response.json())
-        .then (data => console.log(data))
+        .then (data => { 
+            console.log(data)
+            card.setAttribute('data-question',data.results[1].question )    
+        
+        })
     })
 
 }
