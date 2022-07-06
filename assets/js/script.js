@@ -5,8 +5,17 @@ const titles = [
     {   name: 'Sport'
         id: 21
 
-    }
-]
+    },
+
+    {   name: 'Geography'
+        id: 22
+
+    },
+
+{   name: 'Music'
+    id: 12
+
+},]
 const levels = ['easy', 'medium', 'hard']
 
 function addGenre(titles) {
@@ -46,12 +55,19 @@ levels.forEach(level => {
     })
         
 }
+titles.forEach(title => addTitles(titles))
 
 function cardturns() {
     console.log('clicked')
+
+    const textDisplay = document.createElement('div')
+    const  trueButton = document.createElement('button')
+    const  falseButton = document.createElement('button')
+    falseButton.innerHTML = 'false'
+    trueButton.innerHTML = 'true'
+    this.append (textDisplay, trueButton. falseButton)
+    textDisplay.innerHTML = this.getAttribute('data-question')
 }
 
-
-addGenre(titles[0])
 
 
