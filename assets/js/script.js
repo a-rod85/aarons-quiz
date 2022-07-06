@@ -67,7 +67,23 @@ function cardturns() {
     trueButton.innerHTML = 'true'
     this.append (textDisplay, trueButton. falseButton)
     textDisplay.innerHTML = this.getAttribute('data-question')
+
+    const allCards = Array.from(document.querySelectorAll('.card'))
+    console.log (allCards)
+    allCards.forEach(card => card.removeEventListener('click', cardturn))
 }
+funcion getResult() {
+    if (cardOfButton.getAttribute('data-answer') === this.innerHTML)
+    {console.log ('Another one')}
+
+
+    while (cardOfButton.firstChild) { 
+        cardOfButton.removeChild(cardOfButton.lastChild)
+    }
+    cardOfButton.innerHTML = cardOfButton.getAttribute('data-value')
+
+}
+
 
 
 
