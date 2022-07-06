@@ -29,3 +29,10 @@ body {
 #game {
     display: flex;
 }
+
+.correct-answer {
+    background-color: aquamarine;}
+
+.false-answer {
+    background-color: rgba(213, 82, 82, 0.795);
+}
