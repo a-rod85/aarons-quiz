@@ -102,6 +102,6 @@ function getResult() {
   },40)
     }
     
-    )
+    
   }
 addGenre();
