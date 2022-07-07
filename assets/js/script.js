@@ -64,7 +64,7 @@ function cardturns() {
   const textDisplay = document.createElement('div');
   const trueButton = document.createElement('button');
   const falseButton = document.createElement('button');
-<<<<<<< HEAD
+  
   falseButton.innerHTML = 'False';
   trueButton.innerHTML = 'True';
   falseButton.addEventListener('click', getResult)
@@ -104,29 +104,4 @@ function getResult() {
     }
     
   }
-addGenre();
-=======
-  falseButton.innerHTML = 'false';
-  trueButton.innerHTML = 'true';
-  this.append(textDisplay, trueButton, falseButton);
-  textDisplay.innerHTML = this.getAttribute('data-question');
-  const allCards = Array.from(document.querySelectorAll('.card'));
-  console.log(this);
-  console.log(allCards);
-  allCards.forEach(card => card.removeEventListener('click', getResult));
-}
-
-function getResult() {
-  console.log(this);
-  if (cardOfButton.getAttribute('data-answer') === this.innerHTML) {
-    console.log('Another one!');
-  }
-  while (cardOfButton.firstChild) {
-    cardOfButton.removeChild(cardOfButton.lastChild);
-  }
-  cardOfButton.innerHTML = cardOfButton.getAttribute('data-value');
-}
-
-addGenre();
-
->>>>>>> 4e35ceb0256bac758b1287506fed7e25c1fc1839
+addGenre()
