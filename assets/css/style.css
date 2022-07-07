@@ -1,45 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400&display=swap");
+* {
+  font-weight: 100;
+  font-family: "Roboto Slab", serif;
+}
+
 body {
-    background: rgb(43, 0, 130);
-    margin: 0;
-    padding: 0;
-    color: antiquewhite;
-    font-family: 'Roboto Slab', serif; ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  background: rgb(43, 0, 130);
+  color: antiquewhite;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 30px;
+  padding: 30px 0;
+}
+
+h2 {
+  font-size: 24px;
+  padding: 30px 0;
+}
+
+.genre-column {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 18px;
+}
+
+.card {
+  width: 240px;
+  min-height: 180px;
+  height: auto;
+  border: solid 5px;
+  border-radius: 20px;
+  border-color: rgb(209, 212, 18);
+  padding: 10px;
+  margin: 10px;
   
-  }
-  .genre-column{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
-  
-  .card {
-    width: 150px;
-    min-height: 100px;
-    height: auto;
-    border: solid 5px;
-    border-radius: 20px;
-    border-color: rgb(209, 212, 18);
-    padding: 10px;
-    margin: 10px;
-    /*background-color: rgb(209, 212, 18);*/
-    text-align: center;
-  }
-  
-  #game {
-    display: flex;
-  }
-  
-  #quiz {
-    display: flex;
-  }
-  
-  .correct-answer {
-    background-color: aquamarine;}
-  
-  .false-answer {
-    background-color: rgba(213, 82, 82, 0.795);
-  }
+  text-align: center;
+  font-size: 16px;
+}
+
+.card div {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.card#text {
+  padding-bottom: 15px;
+}
+
+#game {
+  display: flex;
+}
+
+#quiz {
+  display: flex;
+}
+
+button {
+  padding: 5px;
+  width: 40%;
+  margin: 20px 10px 5px 10px;
+  border: solid 1px;
+  border-radius: 5px;
+  border-color: rgb(209, 212, 18);
+  background: transparent;
+  color: #fff;
+}
+
+.correct-answer {
+  background-color: aquamarine;
+}
+
+.false-answer {
+  background-color: rgba(213, 82, 82, 0.795);
+}
+
+/*ipads and above*/
+
+@media screen and (min-width: 760px) {}
