@@ -4,8 +4,10 @@
   font-family: "Roboto Slab", serif;
 }
 
+
+
 body {
-  background: rgb(43, 0, 130);
+  background-color: rgb(43, 43, 126);
   color: antiquewhite;
   margin: 0;
   padding: 0;
