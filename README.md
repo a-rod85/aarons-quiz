@@ -1,108 +1,176 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+#Aaron's Quiz
 
-Welcome a-rod85,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Aaron's Quiz
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Content
 
-## Gitpod Reminders
+◉Introduction
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+    ⊛Planning Stage
+    ⊛Project Goals
+    ⊛User Stories
+    ⊛Design Goals
+    ⊛Design Choices
+        ∙Font
+        ∙Color Scheme
+        ∙Images
+    ⊛Wireframes
 
-`python3 -m http.server`
+◉Features
+    ⊛Design Features
+    ⊛Existing Features
+    ⊛Future Features
 
-A blue button should appear to click: _Make Public_,
+◉Testing
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+◉Bugs
 
-Another blue button should appear to click: _Open Browser_.
+![Skärmbild (67)](https://user-images.githubusercontent.com/102023928/178068197-e8e026e9-5a8a-40e9-b3fa-ad96eb7d9231.png)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+Unable to submit name !!!
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![Skärmbild (69)](https://user-images.githubusercontent.com/102023928/178068723-aa8bae23-b517-41d9-80ad-48c335982d17.png)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
+When submitting feedback came back as error
 
-## Release History
+◉Technology Used
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+◉Deployment
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+◉Credits
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+## Introduction
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+I wanted to do a quiz, based on different subjects. We all believe we have alot of knowledge
+on anything and everything (including myslef). So why not create a game based on true or
+false on different subjects.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Project Goals
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+My goal for the site is to create a user friendly site for everybody who enjoys testing 
+their knowledge on different topics. 
+As mentioned its based on True or Flase each correct answer you will earn points based on
+the difficulty level; easy = 25, medium = 50 & hard=100 points.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Site Owner Goals
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+⊛ Have fun
+⊛ User will want to get a top score
+⊛ User will want to test themsleves with what they think they know
+⊛ User will want to test themselves against friends and see who's better
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## User Goals
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+⊛Improve each time they play
+⊛Have fun
+⊛Improve their knowledge
+⊛Will want to get as many questions correct
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## User Stories
 
-------
 
-## FAQ about the uptime script
+⊛As a site user I can see the title of the subjects in question ie. film, books
 
-**Why have you added this script?**
+⊛As a site user I can click on the subject of choice
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+⊛As a site user I can click on wether I wish to have an easy, medium or hard question (should by the card points number)
 
-**How will this affect me?**
+⊛As a site user I can chose true or false for my answer
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+⊛As a site user it will be visable if the answer is correct or incorrect
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+⊛As I site user it's visable to see your total score during and after the quiz is finished
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
 
-**So….?**
+## Design Goals
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+⊛ A site that works on all devices.
 
-**Can I opt out?**
+⊛ Clean and Simple design.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+⊛ Easy to understand and use.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+⊛ Questions are clear and easy to read
 
-**Anything more?**
+⊛ Question cards are responsive
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
 
----
 
-Happy coding!
+## Design Choices
+
+⊛Font
+
+As Font I chose Roboto-Slab, 
+I chose this as it reminds me of the game jeapody which was a popular quiz show on TV. 
+Wanted the user (if they have watched it ) to have the same feeling.
+## Features
+
+⊛Design Features
+
+    
+
+⊛Existing Features
+
+    ∙ 4 Subjects available to choose from
+    ∙ 3 levels of difficulty
+    ∙ True or Flase answer options.
+    ∙ Score total display
+
+
+⊛Future Features
+
+    ∙ Functioning submit button
+    ∙ More subjects to choose from
+    ∙ Multi choice questions
+    ∙ Option to play 2player mode
+    ∙ A Leader Scoreboard 
+    ∙ A comment section
+    
+##Testing
+
+Testing was done manually throughout the development process. 
+## Bugs
+## Technology Used
+
+◉ HTML5
+◉ CSS3
+◉ JavaScript
+◉ Git
+◉ Github
+◉ Gitpod
+◉ Google Fonts
+◉ JSON API 
+## Deployment
+
+This project was developed using a GitPod workspace. The code was commited to Git and pushed to GitHub using the terminal.
+## Credits
+
+⊛ Media
+
+    ∙open
+
+⊛ Code
+    References used:
+    
+    ∙w3 schools
+    ∙Stackoverflow
+    .opentdb
+
+
+## Acknowledgements
+
+CodeInstitue
+
+The slack community.
+
+My mentor Harry for the patience and encouragement.
+
