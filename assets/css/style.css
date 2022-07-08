@@ -7,7 +7,7 @@
 
 
 body {
-  background-color: rgb(43, 43, 126);
+  background: rgb(43, 43, 128);
   color: antiquewhite;
   margin: 0;
   padding: 0;
@@ -85,6 +85,17 @@ button {
   background-color: rgba(213, 82, 82, 0.795);
 }
 
-/*ipads and above*/
 
-@media screen and (min-width: 760px) {}
+
+/*mobile decives screens and above*/
+@media screen and (max-width: 320px) {}
+
+/*ipads and tablets*/
+@media screen and (max-width: 480px) {}
+
+/*small screens and laptops*/
+
+@media screen and (max-width: 760px) {}
+
+/*desktops and large screens*/
+@media screen and (max-width: 1025px) {}
