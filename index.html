@@ -16,10 +16,13 @@
 <body>
     <h1 class = "heading">Lets Go!</h1>
 
-    <p id="nameholder">your name goes here
-    </p>
+    <form id="userform" class="userform">
+      <label for="name">Name</label>
+      <input autofocus class="userform_name" type="text" id="name" name="name">
+      <input class="userform_submit" type="submit" value="Submit">
+  </form>
 
-    <input type="text" name="username" id="login"><button id="submit">submit</button></input>
+    
     
     <div id="quiz"></div>
     <h2>Score:<span id="score">0</span></h2>
