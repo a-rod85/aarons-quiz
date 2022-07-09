@@ -88,14 +88,52 @@ button {
 
 
 /*mobile decives screens and above*/
-@media screen and (max-width: 320px) {}
-
-/*ipads and tablets*/
-@media screen and (max-width: 480px) {}
-
-/*small screens and laptops*/
-
-@media screen and (max-width: 760px) {}
-
-/*desktops and large screens*/
-@media screen and (max-width: 1025px) {}
+@media only screen and (max-width: 600px) {
+  body {
+      font-size: 14px;
+  }
+  .title {
+      font-size: 24px;
+      padding-top: 20px;
+      margin: 0;
+  }
+  .subtitle {
+      font-size: 18px;
+      padding-top: 20px;
+      margin: 0;
+  }
+  .score {
+      display: flex;
+      font-size: 18px;
+      padding-top: 20px;
+      margin: 0;
+  }
+  .quiz {
+      display: grid;
+      width: 95%;
+      grid-template-columns: 50% 50%;
+  }
+  .col-title {
+      font-size: 16px;
+  }
+  .card {
+      min-height: 180px;
+      height: auto;
+      margin: 15px;
+  }
+  .card_inner {
+      width: 100%;
+      min-height: 180px;
+      height: auto;
+  }
+  .card .question {
+      position: absolute;
+      top: 0;
+  }
+  .feedback_button {
+      margin: 10px 0 20px 0;
+  }
+  .feedback_textarea {
+      width: 300px;
+  }
+}
