@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400&display=swap");
+i@mport url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400&display=swap");
 * {
   font-weight: 100;
   font-family: "Roboto Slab", serif;
@@ -84,6 +84,23 @@ button {
 .false-answer {
   background-color: rgba(213, 82, 82, 0.795);
 }
+
+.card_correct,
+.card_false {
+    position: absolute;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backface-visibility: hidden;
+    box-shadow: 0px 0px 15px -5px #000000;
+    -webkit-box-shadow: 0px 0px 15px -5px #000000;
+}
+
+
+
 
 
 
