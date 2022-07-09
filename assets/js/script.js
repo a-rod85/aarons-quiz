@@ -2,6 +2,8 @@ const quiz = document.getElementById('quiz');
 const scoreDisplay = document.getElementById('score');
 let score = 0
 let questionScore = 0
+const feedback_button = document.getElementById('feedback_button')
+
 
 const genres = [
     { name: 'Books', id: 10 },
@@ -113,3 +115,13 @@ function getResult() {
     }
 }
 addGenre()
+
+function feedbackSubmit() {
+    console.log(document.getElementById('feedback_textarea').value)
+    closeFeedback()
+    return false
+}
+
+function closeFeedback() {
+    feedback.style.display = "none"
+}
